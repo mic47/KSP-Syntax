@@ -9,4 +9,4 @@ endfunction
 
 au BufRead,BufNewFile *.craft set filetype=craft
 au BufRead,BufNewFile *.sfs set filetype=craft
-au BufRead,BufNewFile *.cfg set filetype=craft
+au BufRead,BufNewFile *.cfg call CheckCraftElseCfg() 
